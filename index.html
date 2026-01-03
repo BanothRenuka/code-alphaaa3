@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trading Simulation - Task 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Virtual Trading Simulation</h1>
+        <p><strong>Initial Portfolio Value:</strong> ₹1,00,000</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Stock Name</th>
+                    <th>Buy Price (₹)</th>
+                    <th>Sell Price (₹)</th>
+                    <th>Quantity</th>
+                    <th>Profit / Loss (₹)</th>
+                </tr>
+            </thead>
+            <tbody id="tradeTable">
+                <!-- Filled by JS -->
+            </tbody>
+        </table>
+
+        <div class="summary">
+            <h2>Summary Report</h2>
+            <p id="totalProfit"></p>
+            <p id="finalValue"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
